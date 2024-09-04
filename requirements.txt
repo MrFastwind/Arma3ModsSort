@@ -1,0 +1,3 @@
+xmltodict==0.13.0
+# For building the exe
+pyinstaller==6.10.0
