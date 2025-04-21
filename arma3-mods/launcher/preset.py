@@ -10,7 +10,7 @@ class Preset:
     def __hash__(self):
         return hash((self.name))
     
-    def __eq__(self, other):
+    def __eq__(self, other: object)-> bool:
         return self.__hash__() == other.__hash__()
 
     def to_xml_string(self) -> str:

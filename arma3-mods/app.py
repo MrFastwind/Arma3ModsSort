@@ -3,7 +3,7 @@ from launcher import Arma3Launcher
 import argparse
 
 
-DEFAULT_PATH=os.environ.get("LOCALAPPDATA") + "/Arma 3 Launcher"
+DEFAULT_PATH: str=os.environ.get("LOCALAPPDATA") + "/Arma 3 Launcher" # type: ignore
 
 
 
